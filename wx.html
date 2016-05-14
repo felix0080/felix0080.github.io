@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <meta id="metaDescription" name="description" content="">
+
+    <script>
+        document.documentElement.setAttribute('data-useragent', navigator.userAgent);
+    </script>
+
+    <title>扫描二维码，成为好友</title>
+
+    <link rel="stylesheet" href="http://stc.xiumius.com/styles/app/reader/e272db.paper.min.css">
+
+</head>
+<body class="tn-transition-end" ng-controller="PaperRootReaderController">
+
+<div id="shareImage" style="display: none;">
+    
+</div>
+
+<div class="tn-reader-paper container" ng-controller="PaperReaderController">
+
+    <section class="row tn-board-head">
+        
+        <h3>扫描二维码，成为好友</h3>
+       <img src="http://olycloud.com/images/mewx.jpg">
+    </section>
+
+    <section class="row tn-board-foot">
+        <div class="col-xs-4 text-left">
+            阅读 <span ng-bind="hitCount | hitCountText"></span>
+        </div>
+        <div class="col-xs-8 text-right">
+            本内容由felix创建并负责
+        </div>
+    </section>
+
+    <section class="row tn-board-foot tn-board-foot-margin">
+        <div class="col-xs-12 text-right">
+            <a class="no-decoration text-right" href="http://www.softbar.com">
+                由softbar提供技术支持
+            </a>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
