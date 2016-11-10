@@ -1,4 +1,4 @@
-<!DOCTYPE TVSCHEDULE [
+<!DOCTYPE tables [
 <!ELEMENT tables (table+)>
 <!ELEMENT table (collumn+)>
 <!ATTLIST table name CDATA #REQUIRED>
