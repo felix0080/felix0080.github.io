@@ -1,5 +1,5 @@
-<!ELEMENT tables (table+)>
-<!ELEMENT table (collumn+)>
+<!ELEMENT tables (table)+>
+<!ELEMENT table (collumn)+>
 <!ELEMENT collumn ANY>
 <!ATTLIST table name CDATA #REQUIRED>
 <!ATTLIST collumn name CDATA #REQUIRED>
