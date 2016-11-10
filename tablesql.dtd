@@ -1,7 +1,6 @@
 <!ELEMENT tables (table+)>
 <!ELEMENT table (collumn+)>
 <!ATTLIST table name CDATA #REQUIRED>
-<!ELEMENT collumn EMPTY>
 <!ATTLIST collumn name CDATA #REQUIRED>
 <!ATTLIST collumn type CDATA #REQUIRED>
 <!ATTLIST collumn IsPrimaryKey (true|false) "false">
